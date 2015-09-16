@@ -1,0 +1,25 @@
+﻿input.txt {
+  color: #00008B;
+  background-color: #E3F2F7;
+  border: 1px inset #00008B;
+  width: 260px;
+  height:40px;
+  font:bold;
+  font-size:16px;
+  padding-top: 0.3em;
+}
+input.btn {
+  color: #00008B;
+  background-color: #ADD8E6;
+  border: 1px outset #00008B;
+  width:50px;
+  height:50px;
+  font:bold;
+  font-size:22px;
+}
+div {
+  clear: left;
+  margin: 0;
+  padding: 0;
+  padding-top: 0.3em;
+}

@@ -1,0 +1,6 @@
+D:\JavaScript\WA_kalkulator\WebApplication1\bin\WebApplication1.dll.config
+D:\JavaScript\WA_kalkulator\WebApplication1\bin\WebApplication1.dll
+D:\JavaScript\WA_kalkulator\WebApplication1\bin\WebApplication1.pdb
+D:\JavaScript\WA_kalkulator\WebApplication1\obj\Debug\WA_Calculator.csprojResolveAssemblyReference.cache
+D:\JavaScript\WA_kalkulator\WebApplication1\obj\Debug\WebApplication1.dll
+D:\JavaScript\WA_kalkulator\WebApplication1\obj\Debug\WebApplication1.pdb

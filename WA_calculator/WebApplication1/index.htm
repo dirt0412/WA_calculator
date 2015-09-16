@@ -1,0 +1,42 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="style1.css" rel="stylesheet" />
+    <script src="calculator.js"></script>
+</head>
+
+<body>   
+    <div>
+        <input type="button" id="bt1" value="1" onclick="laczenieZnakow(1)" class="btn" />
+        <input type="button" id="bt2" value="2" onclick="laczenieZnakow(2)" class="btn" />
+        <input type="button" id="bt3" value="3" onclick="laczenieZnakow(3)" class="btn" />
+        <input type="button" id="bt4" value="4" onclick="laczenieZnakow(4)" class="btn" />
+        <input type="button" id="bt5" value="5" onclick="laczenieZnakow(5)" class="btn" />
+    </div>
+    <div>       
+        <input type="button" id="bt6" value="6" onclick="laczenieZnakow(6)" class="btn" />
+        <input type="button" id="bt7" value="7" onclick="laczenieZnakow(7)" class="btn" />
+        <input type="button" id="bt8" value="8" onclick="laczenieZnakow(8)" class="btn" />
+        <input type="button" id="bt9" value="9" onclick="laczenieZnakow(9)" class="btn" />
+        <input type="button" id="bt0" value="0" onclick="laczenieZnakow(0)" class="btn" />
+    </div>
+    <div>
+        <input type="button" id="btplus" value="+" onclick="wybraneDzialanie('plus')" class="btn" />
+        <input type="button" id="btminus" value="-" onclick="wybraneDzialanie('minus')" class="btn" />
+        <input type="button" id="btmnozenie" value="*" onclick="wybraneDzialanie('mnozenie')" class="btn" />
+        <input type="button" id="btdzielenie" value="/" onclick="wybraneDzialanie('dzielenie')" class="btn" />        
+        <input type="button" id="btsqrt" value="sqrt" onclick="wybraneDzialanie('sqrt')" class="btn" />   
+    </div>
+    <div>
+        <input type="button" id="btprz" value="." onclick="laczenieZnakow('.')" class="btn" />
+        <input type="button" id="btrow" value="=" onclick="wynik1()" class="btn" />
+        <input type="button" value="+/-" onclick="zmianaZnaku()" class="btn" />
+        <input type="button" value="C" onclick="Clear()" class="btn" />
+    </div>
+    <div>
+        <input type="text" id="txtWynikDzialania" class="txt" readonly="readonly" />
+        
+    </div>   
+</body>
+</html>
